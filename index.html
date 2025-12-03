@@ -1,0 +1,162 @@
+<!-- Save as index.html and push to a GitHub Pages repo -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rahul Sharma — Full Stack Developer</title>
+  <meta name="description" content="Rahul Sharma — Full Stack Developer (React, Node, Python). Portfolio & contact." />
+  <style>
+    :root{
+      --accent:#6c5ce7;
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --glass: rgba(255,255,255,0.03);
+      --radius:16px;
+      --maxw:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: radial-gradient(1200px 400px at 10% 10%, rgba(108,92,231,0.08), transparent),
+                  linear-gradient(180deg,#071020 0%, #071022 60%);
+      color:#e6eef8;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 20px;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      display:grid;
+      grid-template-columns: 1fr 380px;
+      gap:28px;
+    }
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:var(--radius);
+      padding:28px;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    header h1{margin:0 0 6px 0; font-size:26px}
+    header p{color:var(--muted); margin:0; font-size:14px}
+    .intro{margin-top:18px; font-size:15px; line-height:1.5; color:#cfdff3}
+    .buttons{margin-top:20px; display:flex; gap:12px}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:10px 14px; border-radius:10px; cursor:pointer;
+      background:linear-gradient(90deg,var(--accent), #00b894);
+      color:white; text-decoration:none; font-weight:600; font-size:14px;
+      box-shadow: 0 6px 18px rgba(108,92,231,0.18);
+    }
+    .side{
+      position:relative; display:flex; flex-direction:column; gap:18px;
+    }
+    .avatar{
+      width:100%; height:220px; border-radius:12px; overflow:hidden;
+      display:flex; align-items:center; justify-content:center; background:var(--glass);
+      border:1px solid rgba(255,255,255,0.02);
+    }
+    .avatar img{width:140px; height:140px; object-fit:cover; border-radius:50%; border:4px solid rgba(255,255,255,0.03)}
+    .meta{display:flex; justify-content:space-between; gap:12px}
+    .meta .item{flex:1; background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.015)); padding:12px; border-radius:10px; text-align:center}
+    .meta .item small{display:block; color:var(--muted); font-size:12px}
+    .meta .item strong{display:block; margin-top:8px; font-size:16px}
+    .skills{margin-top:12px; display:flex; flex-wrap:wrap; gap:8px}
+    .skill{background:rgba(255,255,255,0.02); padding:8px 10px; border-radius:8px; font-size:13px; color:#dbe9ff}
+    .projects{margin-top:18px; display:grid; gap:10px}
+    .proj{background:rgba(255,255,255,0.02); padding:12px; border-radius:10px; display:flex; justify-content:space-between; align-items:center}
+    .proj small{color:var(--muted)}
+    footer{margin-top:20px; text-align:center; color:var(--muted); font-size:13px}
+    @media(max-width:960px){
+      .wrap{grid-template-columns:1fr; padding-bottom:20px;}
+      .side{order:-1}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <h1>Rahul Sharma <span style="color:var(--accent);font-weight:700">· Full Stack Developer</span></h1>
+        <p>React · Node.js · Python · Flask · MongoDB · MySQL</p>
+      </header>
+
+      <div class="intro">
+        I build clean, secure, and maintainable web applications — from polished frontends to reliable backends.
+        I enjoy solving real problems: healthcare booking flows, security tooling, and shop billing systems.
+      </div>
+
+      <div class="buttons">
+        <a class="btn" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">View GitHub</a>
+        <a class="btn" href="mailto:your.email@example.com" style="background:transparent; border:1px solid rgba(255,255,255,0.06)">Contact</a>
+      </div>
+
+      <section style="margin-top:20px">
+        <h3 style="margin:0 0 10px 0">Selected Projects</h3>
+        <div class="projects">
+          <div class="proj"><div><strong>Medical Appointment</strong><small>Flask · JS · Booking</small></div><div><a href="#">Demo</a></div></div>
+          <div class="proj"><div><strong>Vuln Detection</strong><small>Scanner · UI</small></div><div><a href="#">Repo</a></div></div>
+          <div class="proj"><div><strong>Shop Billing</strong><small>Inventory · Billing</small></div><div><a href="#">Repo</a></div></div>
+        </div>
+      </section>
+
+      <section style="margin-top:18px">
+        <h3 style="margin:0 0 10px 0">What I Use</h3>
+        <div class="skills">
+          <div class="skill">React</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">Express</div>
+          <div class="skill">Python</div>
+          <div class="skill">Flask</div>
+          <div class="skill">MongoDB</div>
+          <div class="skill">MySQL</div>
+          <div class="skill">Docker</div>
+        </div>
+      </section>
+
+      <footer>
+        © Rahul Sharma · <a href="https://YOUR_GITHUB_USERNAME.github.io" style="color:inherit">Portfolio</a>
+      </footer>
+    </div>
+
+    <aside class="side">
+      <div class="card avatar">
+        <!-- Replace src with your photo URL -->
+        <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Rahul's avatar">
+      </div>
+
+      <div class="card meta">
+        <div class="item"><small>Experience</small><strong>2+ yrs</strong></div>
+        <div class="item"><small>Location</small><strong>India</strong></div>
+        <div class="item"><small>Availability</small><strong>Open</strong></div>
+      </div>
+
+      <div class="card">
+        <h4 style="margin:0 0 10px 0">Quick Links</h4>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
+          <a href="mailto:your.email@example.com">Email</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4 style="margin:0 0 10px 0">Top Languages</h4>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;justify-content:space-between"><small>JavaScript</small><strong>55%</strong></div>
+          <div style="display:flex;justify-content:space-between"><small>Python</small><strong>25%</strong></div>
+          <div style="display:flex;justify-content:space-between"><small>HTML/CSS</small><strong>20%</strong></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

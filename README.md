@@ -3,10 +3,10 @@
 ![header-sparkle](https://img.shields.io/badge/✨-Building%20cool%20stuff-blueviolet)
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=green" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=RahulSharma4532&color=green" alt="profile views" />
   &nbsp;
-  <a href="https://github.com/your-username">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Follow&style=social">
+  <a href="![Rahul's stats](https://github-readme-stats.vercel.app/api?username=RahulSharma4532&show_icons=true&theme=radical)">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/RahulSharma4532?label=Follow&style=social">
   </a>
 </p>
 
@@ -17,7 +17,7 @@ I'm **Rahul Sharma**, a Full Stack Developer who turns ideas into production-rea
 - 🗄 Databases: **MongoDB, MySQL, Firebase (basics)**
 - 🛡 Interests: **APIs, Auth, Web Security, DevOps basics, CI/CD, Docker**
 - 🌱 Currently: Learning advanced DevOps patterns and improving security scanning tools
-- 📫 Reach me: <your.email@example.com> · [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) · [Portfolio](https://YOUR_GITHUB_USERNAME.github.io)
+- 📫 Reach me: [Gmail]([![Email](https://img.shields.io/badge/✉-iamrahul1906@gmail.com-blue?style=flat-square)])· [LinkedIn]([![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20Sharma-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rahul-sharma1906/))· [Portfolio](https://YOUR_GITHUB_USERNAME.github.io)
 
 ---
 
@@ -32,7 +32,7 @@ I'm **Rahul Sharma**, a Full Stack Developer who turns ideas into production-rea
 
 **Frontend:** HTML5 · CSS3 · JavaScript · React · Tailwind CSS · Bootstrap  
 **Backend:** Node.js · Express · Python · Flask · REST APIs  
-**DB:** MongoDB · MySQL · Firebase  
+**DB:** MongoDB · MySQL   
 **Tools:** Git · GitHub · VSCode · Postman · Docker (beginner) · Basic CI/CD
 
 ---
@@ -53,10 +53,9 @@ I'm **Rahul Sharma**, a Full Stack Developer who turns ideas into production-rea
 ---
 
 ## 📌 Pinned Projects
-> Replace the links with your repo URLs
 
-- [Medical Appointment System](https://github.com/YOUR_GITHUB_USERNAME/medical-appointment) — Flask app for bookings.  
-- [Web Vulnerability Detection](https://github.com/YOUR_GITHUB_USERNAME/vuln-detector) — Security scanning & reports.  
+- [Medical Appointment System]([https://github.com/YOUR_GITHUB_USERNAME/medical-appointment](https://github.com/RahulSharma4532/Hackathon-web-4.0)) — Flask app for bookings.  
+- [Web Vulnerability Detection]([https://github.com/YOUR_GITHUB_USERNAME/vuln-detector](https://github.com/shivanikumarishivani824/Web-Vulnerability-Detection)) — Security scanning & reports.  
 - [Shop Billing System](https://github.com/YOUR_GITHUB_USERNAME/shop-billing) — Inventory & billing app.
 
 ---
@@ -64,9 +63,9 @@ I'm **Rahul Sharma**, a Full Stack Developer who turns ideas into production-rea
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="Rahul's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RahulSharma4532&show_icons=true&theme=radical" alt="Rahul's GitHub stats" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSharma4532&layout=compact&theme=radical" alt="Top languages" />
 </p>
 
 ---

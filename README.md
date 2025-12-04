@@ -7,8 +7,10 @@
   Building secure, scalable, and modern web applications.
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=RahulSharma4532&color=green" alt="profile views" />
-  &nbsp;
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RahulSharma4532&color=green" alt="profile views" />
+</p>
+
 
 
 ---

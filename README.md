@@ -1,7 +1,7 @@
-<!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RahulSharma4532/RahulSharma4532/main/assets/banner.png" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Rahul+Sharma;Full+Stack+Developer;Cybersecurity+Enthusiast;MERN+Stack+Developer;Python+%7C+Node.js+%7C+React.js;Always+Learning+New+Things" />
 </p>
+
 
 <!-- Avatar + Title -->
 <h1 align="center">Hi, I'm Rahul Sharma 👋</h1>

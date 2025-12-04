@@ -2,18 +2,15 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Rahul+Sharma;Full+Stack+Developer;Cybersecurity+Enthusiast;MERN+Stack+Developer;Python+%7C+Node.js+%7C+React.js;Always+Learning+New+Things" />
 </p>
 
-
-<!-- Avatar + Title -->
-<h1 align="center">Hi, I'm Rahul Sharma 👋</h1>
-
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/148843216?v=4" width="140" style="border-radius: 50%;"/>
-</p>
-
 <p align="center">
   <strong>Full Stack Developer | Cybersecurity Enthusiast | Python & JS Developer</strong><br>
   Building secure, scalable, and modern web applications.
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Rahul+Sharma;Full+Stack+Developer;Cybersecurity+Enthusiast;MERN+Stack+Developer;Python+%7C+Node.js+%7C+React.js;Always+Learning+New+Things" />
+</p>
+
 
 ---
 

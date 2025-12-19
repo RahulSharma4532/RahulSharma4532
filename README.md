@@ -101,10 +101,10 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" />
   </a>
   <a href="https://leetcode.com/u/RahulSharma4898/">
-    <img src="https://img.shields.io/badge/-Hackerrank-00EA64 ?style=for-the-badge&logo=HackerRank&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
   </a>
   <a href="https://www.hackerrank.com/profile/rs8759652">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Hackerrank-00EA64 ?style=for-the-badge&logo=HackerRank&logoColor=white" />
 </p>
 
 <p align="center">

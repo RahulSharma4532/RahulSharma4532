@@ -59,11 +59,22 @@
 
 ---
 
-## 🐍 Contribution Snake (Animated)
+<!-- ===================== CONTRIBUTION SNAKE ===================== -->
+
+<h2 align="center">🐍 Contribution Activity</h2>
+<p align="center">
+  <i>Consistency beats talent.</i>
+</p>
 
 <p align="center">
-  <img src="https://github.com/RahulSharma4532/RahulSharma4532/blob/output/github-contribution-grid-snake-dark.svg" />
+  <img 
+    src="https://github.com/RahulSharma4532/RahulSharma4532/blob/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub Contribution Snake"
+    width="90%"
+  />
 </p>
+
+<hr/>
 
 ---
 

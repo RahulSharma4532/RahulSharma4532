@@ -1,100 +1,102 @@
+<!-- ===== HERO SECTION ===== -->
+
+<h1 align="center">Hey 👋, I'm Rahul Sharma</h1>
+
+<h3 align="center">
+Full Stack Developer • Problem Solver • Tech Explorer 🚀
+</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Rahul+Sharma;Full+Stack+Developer;Cybersecurity+Enthusiast;MERN+Stack+Developer;Python+%7C+Node.js+%7C+React.js;Always+Learning+New+Things" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=600&lines=Full+Stack+Web+Developer;MERN+Stack+Enthusiast;Java+%7C+DSA+%7C+Problem+Solving;Turning+Ideas+Into+Real+Projects" />
 </p>
 
 <p align="center">
-  <strong>Full Stack Developer | Cybersecurity Enthusiast | Python & JS Developer</strong><br>
-  Building secure, scalable, and modern web applications.
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RahulSharma4532&color=green" alt="profile views" />
-</p>
-
-
-
----
-
-# 🚀 About Me
-
-Hi! I'm **Rahul Sharma**, a passionate **Full Stack Developer** and **Cybersecurity Learner** currently studying at **Lovely Professional University**.
-
-I love building **modern UI**, **secure backend APIs**, and **AI-powered applications**.  
-I also explore **web vulnerabilities**, system security, and bug detection tools.
-
----
-
-# 🛠 Tech Stack
-
-### 💻 Frontend  
-HTML • CSS • JavaScript • ReactJS • Bootstrap • Tailwind
-
-### ⚙️ Backend  
-Node.js • Express.js • Python • Flask • REST APIs
-
-### 🗄 Database  
-MongoDB • MySQL
-
-### 🔐 Cybersecurity  
-Kali Linux • BurpSuite • Packet Analysis • Web Vulnerability Detection
-
-### 🧰 Tools  
-Git • GitHub • VSCode • Postman • VMware • Linux
-
----
-
-# 📌 Featured Projects
-
-### 🔹 **🏥 Hospital Website (Full Stack)**  
-Secure, fast, and modern hospital management website.  
-🔗 Repo: https://github.com/RahulSharma4532/Hackathon-web-4.0
-
-### 🔹 **🛡 Web Vulnerability Detection System**  
-A tool to detect common CVEs and web security issues.  
-🔗 Repo: https://github.com/shivanikumarishivani824/Web-Vulnerability-Detection
-
----
-
-# 🌐 Connect With Me
-<a href="https://www.linkedin.com/in/rahul-sharma1906/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"></a>
-<a href="mailto:iamrahul1906@gmail.com"><img src="https://img.shields.io/badge/Email-iamrahul1906@gmail.com-red"></a>
-<a href="https://leetcode.com/u/RahulSharma4898/"><img src="https://img.shields.io/badge/LeetCode-orange?logo=leetcode&logoColor=white"></a>
-<a href="https://www.hackerrank.com/profile/rs8759652"><img src="https://img.shields.io/badge/HackerRank-brightgreen?logo=hackerrank&logoColor=white"></a>
-
----
-
-# 📊 GitHub Stats (Auto Updated)
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RahulSharma4532&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RahulSharma4532&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSharma4532&layout=compact&theme=tokyonight" />
+<img src="https://komarev.com/ghpvc/?username=RahulSharma4532&label=Profile+Views&color=0e75b6&style=flat" />
 </p>
 
 ---
 
-# 🧠 GitHub Activity Graph
+## 👨‍💻 About Me
+
+✨ I’m a **passionate Full Stack Developer** who loves building real-world applications  
+🧠 Strong foundation in **DSA, DBMS & Core Programming**  
+🌱 Constantly learning and improving my problem-solving skills  
+☕ Debugging mode works best with coffee  
+
+- 💻 Tech I work with: **Java, MERN Stack**
+- 📚 Currently improving **System Design & Backend Scalability**
+- 🚀 Goal: Build products that create real impact
+
+---
+
+## 🧰 Tech Stack
+
+### 🌐 Frontend
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react" />
+</p>
+
+### ⚙ Backend
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+</p>
+
+### 🧠 Programming & DSA
+<p>
+<img src="https://skillicons.dev/icons?i=java,cpp,c,python" />
+</p>
+
+### 🗄 Databases & CS Fundamentals
+- 📘 DBMS
+- 📗 Data Structures & Algorithms
+- 📙 OOP Concepts
+
+---
+
+## 🚀 What I Love Building
+✔ Scalable Full Stack Applications  
+✔ Clean & Maintainable Code  
+✔ Logic-driven Features  
+✔ Real-world Problem Solving Systems  
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RahulSharma4532&theme=react-dark" />
+<img src="https://github-readme-stats.vercel.app/api?username=RahulSharma4532&show_icons=true&theme=github_dark&hide_border=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RahulSharma4532&theme=github-dark-blue&hide_border=true" height="165"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSharma4532&layout=compact&theme=github_dark&hide_border=true"/>
 </p>
 
 ---
 
-# 🧩 Fun Facts  
-✔ I love building cybersecurity tools  
-✔ I enjoy debugging and reverse engineering  
-✔ I love clean UI + hacker green neon themes  
-✔ Currently working on multiple full-stack projects  
+## 🧠 Coding Philosophy
+> “First make it work.  
+> Then make it right.  
+> Then make it fast.” 🚀
 
 ---
 
-# ⭐ Show Some Support
-If you like my projects, consider giving a ⭐ to my repositories!
+## 🌐 Let’s Connect
 
+<p align="center">
+<a href="https://github.com/RahulSharma4532">
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github"/>
+</a>
+<a href="#">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+<a href="mailto:your_email@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail"/>
+</a>
+</p>
+
+---
+
+<p align="center">
+⭐ If you like my work, consider giving a star — it motivates me a lot!
+</p>

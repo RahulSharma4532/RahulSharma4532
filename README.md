@@ -1,3 +1,36 @@
+<!-- ================== 3D BANNER ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Rahul%20Sharma&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn&fontSize=65" />
+</p>
+
+<!-- ================== ANIMATED INTRO ================== -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+🚀;Java+%7C+DSA+%7C+MERN+Stack;Turning+Code+Into+Experience;Building+The+Future+With+Code+⚡" />
+</h2>
+
+<!-- ================== 3D CODER GIF ================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rajput2107/rajput2107/master/Assets/Developer.gif" width="420"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RahulSharma4532&style=for-the-badge&color=blueviolet" />
+</p>
+
+---
+
+## 🧠 WHO AM I (IN MOTION)
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=RahulSharma4532&theme=okuya&no-frame=true&row=1&column=7" />
+</p>
+
+```diff
++ Full Stack Developer with strong CS fundamentals
++ Java + DSA problem solver
++ MERN Stack builder
++ Obsessed with animations, UI & logic
++ Learning never stops 🔥
 <!-- ===== HERO SECTION ===== -->
 
 <h1 align="center">Hey 👋, I'm Rahul Sharma</h1>
@@ -100,36 +133,3 @@ Full Stack Developer • Problem Solver • Tech Explorer 🚀
 <p align="center">
 ⭐ If you like my work, consider giving a star — it motivates me a lot!
 </p>
-<!-- ================== 3D BANNER ================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Rahul%20Sharma&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn&fontSize=65" />
-</p>
-
-<!-- ================== ANIMATED INTRO ================== -->
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+🚀;Java+%7C+DSA+%7C+MERN+Stack;Turning+Code+Into+Experience;Building+The+Future+With+Code+⚡" />
-</h2>
-
-<!-- ================== 3D CODER GIF ================== -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rajput2107/rajput2107/master/Assets/Developer.gif" width="420"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RahulSharma4532&style=for-the-badge&color=blueviolet" />
-</p>
-
----
-
-## 🧠 WHO AM I (IN MOTION)
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RahulSharma4532&theme=okuya&no-frame=true&row=1&column=7" />
-</p>
-
-```diff
-+ Full Stack Developer with strong CS fundamentals
-+ Java + DSA problem solver
-+ MERN Stack builder
-+ Obsessed with animations, UI & logic
-+ Learning never stops 🔥

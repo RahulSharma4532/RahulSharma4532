@@ -5,7 +5,7 @@
 
 <!-- ===================== ROTATING / TYPING TEXT ===================== -->
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=900&color=00C2FF&center=true&vCenter=true&width=700&lines=Full+Stack+Web+Developer;Java+Programmer+%7C+DSA+Learner;React+%7C+Node+%7C+MongoDB;Learning+by+Building+Projects" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=900&color=00C2FF&center=true&vCenter=true&width=700&lines=Full+Stack+Web+Developer;C+++Programmer+%7C+DSA+Learner;React+%7C+Node+%7C+MongoDB;Learning+by+Building+Projects" />
 </h2>
 
 <p align="center">
@@ -17,7 +17,7 @@
 ## 👨‍🎓 About Me
 
 - 🎓 Student & aspiring **Full Stack Developer**
-- 💻 Skilled in **Java, MERN Stack**
+- 💻 Skilled in **C++, MERN Stack**
 - 🧠 Strong foundation in **DSA & DBMS**
 - 🌱 Currently improving backend & problem-solving skills
 - 🎯 Goal: Get a good **internship / entry-level role**
@@ -29,9 +29,9 @@
 | Level | Skill | Status |
 |------|------|------|
 | 🟢 Level 1 | HTML • CSS • JavaScript | Completed |
-| 🟢 Level 2 | React (Frontend) | Completed |
-| 🟢 Level 3 | Node • MongoDB | Completed |
-| 🟡 Level 4 | Java + DSA | In Progress |
+| 🟡 Level 2 | React (Frontend) | In Progress |
+| 🟡 Level 3 | Node • MongoDB | In Progress |
+| 🟡 Level 4 | C++ + DSA | In Progress |
 | 🔵 Level 5 | System Design Basics | Upcoming |
 
 ---

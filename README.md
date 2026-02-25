@@ -1,6 +1,6 @@
 <!-- ===================== PREMIUM HEADER ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=Hi,%20I'm%20Rahul%20Sharma&fontSize=65&fontColor=ffffff&color=gradient&animation=fadeIn&desc=Full%20Stack%20Web%20Developer%20%7C%20C++%20%7C%20DSA&descAlignY=70&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=Hi,%20I'm%20Rahul%20Sharma&fontSize=65&fontColor=ffffff&color=gradient&animation=fadeIn&desc=Full%20Stack%20Web%20Developer%20%7C++%20C++%20%7C%20DSA&descAlignY=70&descSize=20" />
 </div>
 
 <div align="center">

@@ -1,5 +1,5 @@
 <!-- Save as index.html and push to a GitHub Pages repo -->
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -130,7 +130,7 @@
     <aside class="side">
       <div class="card avatar">
         <!-- Replace src with your photo URL -->
-        <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Rahul's avatar">
+        <!-- <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Rahul's avatar">
       </div>
 
       <div class="card meta">
@@ -159,4 +159,503 @@
     </aside>
   </div>
 </body>
+</html> --> 
+
+
+<!-- second -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Sharma | Advanced Portfolio</title>
+
+    <!-- Fonts & Icons -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Animation Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #8A2BE2;
+            --secondary: #00C2FF;
+            --accent: #FF00E6;
+            --bg: #0f0a1e;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --glass-blur: 20px;
+            --text-main: #ffffff;
+            --text-dim: #b3a9c9;
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            background: linear-gradient(135deg, #0f0a1e 0%, #1a0f35 100%);
+        }
+
+        /* --- Ambient Background --- */
+        .ambient-glow {
+            position: fixed;
+            width: 60vw;
+            height: 60vw;
+            background: radial-gradient(circle, rgba(138, 43, 226, 0.15) 0%, transparent 70%);
+            top: -10vw;
+            right: -10vw;
+            pointer-events: none;
+            z-index: -1;
+            filter: blur(80px);
+        }
+
+        .ambient-glow-2 {
+            position: fixed;
+            width: 50vw;
+            height: 50vw;
+            background: radial-gradient(circle, rgba(0, 194, 255, 0.1) 0%, transparent 70%);
+            bottom: -10vw;
+            left: -10vw;
+            pointer-events: none;
+            z-index: -1;
+            filter: blur(80px);
+        }
+
+        /* --- Glassmorphism --- */
+        .glass {
+            background: var(--card-bg);
+            backdrop-filter: blur(var(--glass-blur));
+            -webkit-backdrop-filter: blur(var(--glass-blur));
+            border: 1px solid var(--card-border);
+            border-radius: 32px;
+            transition: var(--transition);
+        }
+
+        .glass:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* --- Navbar --- */
+        nav {
+            position: fixed;
+            top: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            padding: 8px;
+            display: flex;
+            gap: 4px;
+        }
+
+        nav a {
+            color: var(--text-dim);
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 100px;
+            font-weight: 500;
+            font-size: 14px;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        nav a.active,
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+
+        nav a.active {
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 100px;
+            gap: 80px;
+        }
+
+        .hero-content {
+            flex: 1.2;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(0, 230, 118, 0.08);
+            color: #00E676;
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 32px;
+            border: 1px solid rgba(0, 230, 118, 0.15);
+        }
+
+        .badge i {
+            font-size: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 88px;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 24px;
+            letter-spacing: -2px;
+        }
+
+        .txt-gradient {
+            background: linear-gradient(90deg, #fff 30%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--text-dim);
+            max-width: 580px;
+            margin-bottom: 48px;
+            line-height: 1.6;
+        }
+
+        .hero-visual {
+            flex: 0.8;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            perspective: 1000px;
+        }
+
+        .main-avatar {
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            border: 12px solid var(--card-border);
+            object-fit: cover;
+            box-shadow: 0 0 60px rgba(138, 43, 226, 0.2);
+            transform-style: preserve-3d;
+        }
+
+        /* --- Sections --- */
+        section { padding: 120px 0; }
+        .section-tag {
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: var(--primary);
+            font-size: 14px;
+            margin-bottom: 12px;
+            display: block;
+            text-align: center;
+        }
+
+        .section-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 56px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        /* --- Skills Section --- */
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .skill-group {
+            padding: 48px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chart-wrap {
+            height: 300px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        /* --- Projects --- */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .project-card {
+            height: 480px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-img {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 60%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--bg) 100%), #251b4a;
+            z-index: 0;
+        }
+
+        .project-content { position: relative; z-index: 1; }
+        .tag-row { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+        .tag-pill {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            border: 1px solid var(--card-border);
+        }
+
+        /* --- Stats --- */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .stat-card {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 48px;
+            font-family: 'Outfit';
+            margin-bottom: 8px;
+        }
+
+        .stat-card p { color: var(--text-dim); }
+
+        /* --- Mobile --- */
+        @media (max-width: 1100px) {
+            h1 { font-size: 64px; }
+            .hero { flex-direction: column; text-align: center; gap: 40px; }
+            .hero p { margin: 0 auto 40px; }
+            .skills-container { grid-template-columns: 1fr; }
+            .project-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 48px; }
+            .project-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+            nav span { display: none; }
+            .main-avatar { width: 300px; height: 300px; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ambient-glow"></div>
+    <div class="ambient-glow-2"></div>
+
+    <nav class="glass">
+        <a href="#home" class="active"><i class="fas fa-house"></i> <span>Home</span></a>
+        <a href="#about"><i class="fas fa-user-astronaut"></i> <span>About</span></a>
+        <a href="#skills"><i class="fas fa-bolt-lightning"></i> <span>Skills</span></a>
+        <a href="#projects"><i class="fas fa-layer-group"></i> <span>Projects</span></a>
+        <a href="#contact"><i class="fas fa-paper-plane"></i> <span>Contact</span></a>
+    </nav>
+
+    <div class="container">
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="badge">
+                    <i class="fas fa-circle"></i> AVAILABLE FOR OPPORTUNITIES
+                </div>
+                <h1>Hi, I'm <br><span class="txt-gradient">Rahul Sharma</span></h1>
+                <p>An aspiring Full Stack Architect specializing in high-performance web applications using the MERN
+                    stack and C++.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#contact" class="glass"
+                        style="padding: 18px 36px; text-decoration: none; color: white; border-radius: 16px; font-weight: 700; background: linear-gradient(90deg, var(--primary), var(--accent));">Hire Me</a>
+                    <a href="#projects" class="glass"
+                        style="padding: 18px 36px; text-decoration: none; color: white; border-radius: 16px; font-weight: 700;">View Projects</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" data-aos="zoom-in" data-tilt>
+                <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Rahul" class="main-avatar">
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <span class="section-tag">Powerhouse</span>
+            <h2 class="section-title">Technical <span class="txt-gradient">Arsenal</span></h2>
+
+            <div class="skills-container">
+                <div class="glass skill-group" data-aos="fade-up" data-tilt>
+                    <h3 style="font-size: 24px;"><i class="fas fa-laptop-code"
+                            style="color: var(--secondary); margin-right: 12px;"></i> Frontend Mastery</h3>
+                    <div class="chart-wrap">
+                        <canvas id="frontendChart"></canvas>
+                    </div>
+                    <p style="color: var(--text-dim);">Expertise in React, Next.js, and sophisticated CSS architectures.</p>
+                </div>
+
+                <div class="glass skill-group" data-aos="fade-up" data-tilt="200">
+                    <h3 style="font-size: 24px;"><i class="fas fa-server"
+                            style="color: var(--primary); margin-right: 12px;"></i> Backend Engineering</h3>
+                    <div class="chart-wrap">
+                        <canvas id="backendChart"></canvas>
+                    </div>
+                    <p style="color: var(--text-dim);">Building scalable microservices with Node.js, Express, and MongoDB.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <span class="section-tag">Portfolio</span>
+            <h2 class="section-title">Crafted <span class="txt-gradient">Creations</span></h2>
+
+            <div class="project-grid">
+                <div class="glass project-card" data-aos="fade-up" data-tilt>
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <div class="tag-row">
+                            <span class="tag-pill">MERN</span>
+                            <span class="tag-pill">OpenAI</span>
+                        </div>
+                        <h3 style="font-size: 28px; margin-bottom: 12px;">AI Task Vision</h3>
+                        <p style="color: var(--text-dim); margin-bottom: 24px;">Smart productivity tool with AI-driven priority management.</p>
+                        <a href="#" style="color: var(--secondary); text-decoration: none; font-weight: 700;">LIVE DEMO →</a>
+                    </div>
+                </div>
+
+                <div class="glass project-card" data-aos="fade-up" data-tilt="100">
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <div class="tag-row">
+                            <span class="tag-pill">C++</span>
+                            <span class="tag-pill">DSA</span>
+                        </div>
+                        <h3 style="font-size: 28px; margin-bottom: 12px;">Algo Visualizer</h3>
+                        <p style="color: var(--text-dim); margin-bottom: 24px;">High-performance engine for complex algorithm demonstration.</p>
+                        <a href="#" style="color: var(--secondary); text-decoration: none; font-weight: 700;">SOURCE CODE →</a>
+                    </div>
+                </div>
+
+                <div class="glass project-card" data-aos="fade-up" data-tilt="200">
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <div class="tag-row">
+                            <span class="tag-pill">Next.js</span>
+                            <span class="tag-pill">Stripe</span>
+                        </div>
+                        <h3 style="font-size: 28px; margin-bottom: 12px;">Nexus Commerce</h3>
+                        <p style="color: var(--text-dim); margin-bottom: 24px;">Next-gen e-commerce platform with focus on speed and UX.</p>
+                        <a href="#" style="color: var(--secondary); text-decoration: none; font-weight: 700;">STUDY CASE →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="glass" style="padding: 80px; display: grid; grid-template-columns: 1fr 1.5fr; gap: 60px;">
+                <div>
+                    <h2 style="font-size: 48px; margin-bottom: 24px;">Let's Ignite a <span class="txt-gradient">Project</span></h2>
+                    <p style="color: var(--text-dim); margin-bottom: 40px;">Open for internships and high-impact full-stack roles.</p>
+                    <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <span style="font-size: 18px;"><i class="fas fa-envelope" style="width: 30px; color: var(--secondary);"></i> iamrahul1906@gmail.com</span>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 24px;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                        <input type="text" placeholder="Name" class="glass" style="padding: 20px; border-radius: 12px; color: #fff; outline: none;">
+                        <input type="email" placeholder="Email" class="glass" style="padding: 20px; border-radius: 12px; color: #fff; outline: none;">
+                    </div>
+                    <textarea placeholder="Tell me about your vision..." class="glass" style="padding: 20px; border-radius: 12px; color: #fff; outline: none; height: 180px; resize: none;"></textarea>
+                    <button class="glass" style="padding: 20px; font-weight: 800; background: linear-gradient(90deg, var(--primary), var(--secondary)); border: none; color: #fff; cursor: pointer; border-radius: 16px;">SEND MISSION DATA</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        AOS.init({ duration: 1000, once: true });
+
+        const setupChart = (id, label, data, color) => {
+            const ctx = document.getElementById(id).getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: label,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: [color, 'rgba(255,255,255,0.1)', 'rgba(255,255,255,0.05)'],
+                        borderColor: 'transparent',
+                        hoverOffset: 20
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '80%',
+                    plugins: { legend: { display: false } }
+                }
+            });
+        };
+
+        setupChart('frontendChart', ['React', 'Other', 'Empty'], [85, 15, 0], '#00C2FF');
+        setupChart('backendChart', ['Node.js', 'Other', 'Empty'], [82, 18, 0], '#8A2BE2');
+
+        VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+            max: 10, speed: 400, glare: true, "max-glare": 0.2,
+        });
+    </script>
+</body>
 </html>
+
+
+
+
